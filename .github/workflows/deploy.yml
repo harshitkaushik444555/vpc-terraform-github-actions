@@ -27,7 +27,7 @@ jobs:
 
          - name: Terraform Validate
            id: Validate
-           run: terraform Validate
+           run: terraform validate
            working-directory: ./Terraform-VPC
 
          - name: Terraform plan
